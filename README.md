@@ -19,7 +19,7 @@ In the lower part you can define the parameters of the model you want to run
 * **Number points training**: How many training samples should be generated
 * **Number points test**: How many test samples should be generated
 * **Time limit (s)**: After your program runs this amount of seconds, it will automatically terminate. Note that this is also what happens on the server used to grade your homework
-* **Compiled C program**: Select the **compiled** C program for either classification or regression depending on your earlier choice.
+* **Compiled C program**: Select the **compiled** C program for either classification or regression depending on your earlier choice.  
 **NOTE**: do not select the C code (a *.c file) here in contrast to the grading system
 
 ![Regression result](https://user-images.githubusercontent.com/10931987/31256331-172ed60a-aa32-11e7-9bf6-466533cfc5f9.png)
