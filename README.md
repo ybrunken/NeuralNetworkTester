@@ -15,7 +15,7 @@ To use this tool, simply run the file main.py. The following window opens:
 In the lower part you can define the parameters of the model you want to run
 * **Mode**: Choose whether you want to do a classification or a regression task
 * **Data source**: Specify if an equation should be used for the underlying function or whether you want to use your own drawn function
-* **Noise (\theta)**: Only accessable if mode is set to "Regression". The training data is gaussian distributed around the true value. Here you specify the standard deviation
+* **Noise (\theta)**: Only accessible if mode is set to "Regression". The training data is gaussian distributed around the true value. Here you specify the standard deviation
 * **Number points training**: How many training samples should be generated
 * **Number points test**: How many test samples should be generated
 * **Time limit (s)**: After your program runs this amount of seconds, it will automatically terminate. Note that this is also what happens on the server used to grade your homework
@@ -27,20 +27,20 @@ In the lower part you can define the parameters of the model you want to run
 
 ### Equation
 
-If you want to use an equation for the underlying function, choose "Function" for the value of **Data source**.
+If you want to use an equation for the underlying function, choose "Function" for the value of **Data source**.  
 You specify everything that is related to this function in the upper left area of the window.
-* **Function y(x)=**: Give the equation of the function that should be used, e.g. 7+exp(-x/10)*cos(x)**2
+* **Function y(x)=**: Give the equation of the function that should be used, e.g. 7+exp(-x/10)*cos(x)**2  
   Use Python syntax for the equation. You can use the following functions and constants: *sin*, *asin*, *sinh*, *asinh*, *cos*, *acos*, *cosh*, *acosh*, *tan*, *atan*, *tanh*, *atanh*, *exp*, *log*, *log2*, *log10*, *e*, *pi*
 * **x_min**: Start point of the interval within which the function will be evaluated. You can also use constants like *pi*, e.g. *-pi/2*
 * **x_max**: End point of the interval within which the function will be evaluated. You can also use constants like *pi*, e.g. *2*pi*
-* **y_min**: Only accessable if mode is set to "Classification". Specify the lower bound of the interval within which samples will be generated
-* **y_max**: Only accessable if mode is set to "Classification". Specify the upper bound of the interval within which samples will be generated
+* **y_min**: Only accessible if mode is set to "Classification". Specify the lower bound of the interval within which samples will be generated
+* **y_max**: Only accessible if mode is set to "Classification". Specify the upper bound of the interval within which samples will be generated
 
 ![Use an equation](https://user-images.githubusercontent.com/10931987/31256189-3b0ac29c-aa31-11e7-9641-193cb31e9d31.png)
 
 ### Drawing
 
-You can also draw your own function and use that for the regression or classification task by setting the value of **Data source** to "Drawing".
+You can also draw your own function and use that for the regression or classification task by setting the value of **Data source** to "Drawing".  
 You specify everything that is related to this function in the upper right area of the window.
 * **Main window**: In the large area you draw the function. Simply click and keep the mouse button pressed while you move. Release the button to finish the drawing
 * **x_min**: The x-coordinate of the left corners of the drawing area
@@ -51,7 +51,7 @@ You specify everything that is related to this function in the upper right area 
 
 ### Run network
 
-After you have specified all the parameters, you can run the network. Click the button "Run network" at the very bottom of the main window.
-Note that the window may seem to be frozen. This does **NOT** mean that something went wrong. Just wait for a response and don't kill the process.
-If your program exceeds the time limit or throws and error, you will get notified.
+After you have specified all the parameters, you can run the network. Click the button "Run network" at the very bottom of the main window.  
+Note that the window may seem to be frozen. This does **NOT** mean that something went wrong. Just wait for a response and don't kill the process.  
+If your program exceeds the time limit or throws and error, you will get notified.  
 The script also generates a file "input.txt" of the same format that is used on the homework server. This file will be placed in the same directory as the file "main.py"
