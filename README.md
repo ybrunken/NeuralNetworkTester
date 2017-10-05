@@ -49,6 +49,8 @@ You specify everything that is related to this function in the upper right area 
 * **y_max**: The y-coordinate of the upper corners of the drawing area
 * **Reset**: Click this button to delete your drawn function and to draw a different one
 
+![Use a drawing](https://user-images.githubusercontent.com/10931987/31256419-b9b6513c-aa32-11e7-922b-8d40c425789a.png)
+
 ### Run network
 
 After you have specified all the parameters, you can run the network. Click the button "Run network" at the very bottom of the main window.  
