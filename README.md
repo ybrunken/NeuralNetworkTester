@@ -15,7 +15,7 @@ To use this tool, simply run the file main.py. The following window opens:
 In the lower part you can define the parameters of the model you want to run
 * **Mode**: Choose whether you want to do a classification or a regression task
 * **Data source**: Specify if an equation should be used for the underlying function or whether you want to use your own drawn function
-* **Noise ($\theta$)**: Only accessible if mode is set to "Regression". The training data is gaussian distributed around the true value. Here you specify the standard deviation
+* **Noise**: Only accessible if mode is set to "Regression". The training data is gaussian distributed around the true value. Here you specify the standard deviation
 * **Number points training**: How many training samples should be generated
 * **Number points test**: How many test samples should be generated
 * **Time limit (s)**: After your program runs this number of seconds, it will automatically terminate. Note that this is also what happens on the server used to grade your homework
