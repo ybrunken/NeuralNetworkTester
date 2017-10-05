@@ -9,7 +9,7 @@ This tool makes it easy to test the implemented neural network for the classific
 
 ## Usage
 
-To use this tool, simply run the file main.py. The following window opens:
+To use this tool, simply run the file main.py. The following window opens:  
 ![Main window](https://user-images.githubusercontent.com/10931987/31255236-1fec3022-aa2c-11e7-83fd-e00aa8cf1dfe.png)
 
 In the lower part you can define the parameters of the model you want to run
@@ -29,7 +29,7 @@ In the lower part you can define the parameters of the model you want to run
 
 If you want to use an equation for the underlying function, choose "Function" for the value of **Data source**.
 You specify everything that is related to this function in the upper left area of the window.
-* **Function y(x)=**: Give the equation of the function that should be used, e.g. *7+exp(-x/10)*cos(x)**2*
+* **Function y(x)=**: Give the equation of the function that should be used, e.g. 7+exp(-x/10)*cos(x)**2
   Use Python syntax for the equation. You can use the following functions and constants: *sin*, *asin*, *sinh*, *asinh*, *cos*, *acos*, *cosh*, *acosh*, *tan*, *atan*, *tanh*, *atanh*, *exp*, *log*, *log2*, *log10*, *e*, *pi*
 * **x_min**: Start point of the interval within which the function will be evaluated. You can also use constants like *pi*, e.g. *-pi/2*
 * **x_max**: End point of the interval within which the function will be evaluated. You can also use constants like *pi*, e.g. *2*pi*
