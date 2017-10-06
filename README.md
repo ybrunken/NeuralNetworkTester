@@ -48,7 +48,7 @@ You specify everything that is related to this function in the upper left area o
 * **Function y(x)=**: Give the equation of the function that should be used, e.g. 7+exp(-x/10)*cos(x)**2  
   Use Python syntax for the equation. You can use the following functions and constants: *sin*, *asin*, *sinh*, *asinh*, *cos*, *acos*, *cosh*, *acosh*, *tan*, *atan*, *tanh*, *atanh*, *exp*, *log*, *log2*, *log10*, *e*, *pi*
 * **x_min**: Start point of the interval within which the function will be evaluated. You can also use constants like *pi*, e.g. *-pi/2*
-* **x_max**: End point of the interval within which the function will be evaluated. You can also use constants like *pi*, e.g. *2*pi*
+* **x_max**: End point of the interval within which the function will be evaluated. You can also use constants like *pi*, e.g. *2\*pi*
 * **y_min**: Only accessible if mode is set to "Classification". Specify the lower bound of the interval within which samples will be generated
 * **y_max**: Only accessible if mode is set to "Classification". Specify the upper bound of the interval within which samples will be generated
 
