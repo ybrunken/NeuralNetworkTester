@@ -6,6 +6,22 @@ This tool makes it easy to test the implemented neural network for the classific
 
 1. Install Python 3 on your machine
 2. Download the file main.py and save it at a desired location
+3. Run the file main.py  
+   If you want to run it from the command line, switch to the directory where you put the file and type
+   ```
+   python3 main.py
+   ```
+4. Maybe you're missing some modules. The following modules are required:
+
+   * tkinter
+   * numpy
+   * scipy
+   * parser
+   * subprocess
+   * threading
+   * matplotlib
+   
+   Install them for example with pip
 
 ## Usage
 
