@@ -45,7 +45,7 @@ In the lower part you can define the parameters of the model you want to run
 
 If you want to use an equation for the underlying function, choose "Function" for the value of **Data source**.  
 You specify everything that is related to this function in the upper left area of the window.
-* **Function y(x)=**: Give the equation of the function that should be used, e.g. 7+exp(-x/10)*cos(x)**2  
+* **Function y(x)=**: Give the equation of the function that should be used, e.g. *7+exp(-x/10)\*cos(x)\*\*2*  
   Use Python syntax for the equation. You can use the following functions and constants: *sin*, *asin*, *sinh*, *asinh*, *cos*, *acos*, *cosh*, *acosh*, *tan*, *atan*, *tanh*, *atanh*, *exp*, *log*, *log2*, *log10*, *e*, *pi*
 * **x_min**: Start point of the interval within which the function will be evaluated. You can also use constants like *pi*, e.g. *-pi/2*
 * **x_max**: End point of the interval within which the function will be evaluated. You can also use constants like *pi*, e.g. *2\*pi*
