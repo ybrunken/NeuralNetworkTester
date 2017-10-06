@@ -61,9 +61,10 @@ def set_path():
     path_output.set(path)
 
 
+# The following class uses code from stackoverflow.com
+# https://stackoverflow.com/a/4825933
+# Author: captainclam https://stackoverflow.com/users/489586/captainclam
 class Command(object):
-    # https://stackoverflow.com/a/4825933
-
     def __init__(self, cmd):
         self.cmd = cmd
         self.process = None
