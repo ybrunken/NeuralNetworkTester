@@ -63,7 +63,7 @@ def set_path():
 
 # The following class uses code from stackoverflow.com
 # https://stackoverflow.com/a/4825933
-# Author: captainclam https://stackoverflow.com/users/489586/captainclam
+# Author: jcollado https://stackoverflow.com/users/183066/jcollado
 class Command(object):
     def __init__(self, cmd):
         self.cmd = cmd
