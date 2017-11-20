@@ -95,6 +95,6 @@ You specify everything that is related to this function in the upper right area 
 ### Run network
 
 After you have specified all the parameters, you can run the network. Click the button "Run network" at the very bottom of the main window.  
-Note that the window may seem to be frozen. This does **NOT** mean that something went wrong. Just wait for a response and don't kill the process.  
+Note that the window may seem to be frozen. This does **NOT** mean that something went wrong. Just wait for a response and don't kill the process. If everything was successful, you will see a visualization of your program output and the ground truth like in the pictures above.  
 If your program exceeds the time limit or throws and error, you will get notified.  
 The script also generates a file "input.txt" of the same format that is used on the homework server. This file will be placed in the same directory as the file "main.py"
