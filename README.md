@@ -28,7 +28,7 @@ This program is designed to help you with homework 2 by testing your networks an
    ```
    python3 main.py
    ```
-4. Maybe you're missing some modules. The following modules are required:
+4. Maybe you get an error because you're missing some modules. The following modules are required:
 
    * tkinter
    * numpy
