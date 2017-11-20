@@ -8,14 +8,14 @@ This program is designed to help you with homework 2 by testing your networks an
    
    * **Windows**: Download "Windows x86-64 executable installer" listed under the latest Python 3 version on this website: https://www.python.org/downloads/windows/ 
    Follow the installation process and make sure that you include pip and that you add Python to the PATH variable during the installation. By default these choices are already set. You can also find a video explanation on how to install Python 3 on YouTube: https://youtu.be/dX2-V2BocqQ
-   * **Ubuntu**: Probably Python 3 is already installed, if not use the following command:  
-   ```
-   sudo apt-get install python3 
-   ```  
-   The same holds for pip3. Usually it should already be installed, otherwise write:
-   ```
-   sudo apt-get install python3-pip
-   ```
+   * **Ubuntu**: Probably Python 3 is already installed, if not use the following command:
+   	 ```
+     sudo apt-get install python3 
+     ```  
+     The same holds for pip3. Usually it should already be installed, otherwise write:
+     ```
+     sudo apt-get install python3-pip
+     ```
    * **Mac**: Download "Mac OS X 64-bit/32-bit installer" listed under the latest Python 3 version on this website: https://www.python.org/downloads/mac-osx/ 
    Follow the installation process and make sure that you include pip during the installation. By default that choice is already set. You can also find a video explanation on how to install Python 3 on YouTube: https://youtu.be/uA8SA81nivg
 2. Download the file main.py and save it at a desired location
