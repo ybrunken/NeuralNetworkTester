@@ -63,7 +63,7 @@ This program is designed to help you with homework 2 by testing your networks an
       ```
       pip install scipy‑1.0.0‑cpxx‑cpxxm‑xx.whl
       ```
-      where you have to use the name of the file you just downloaded. After that, you should have sucessfully installed NumPy.
+      where you have to use the name of the file you just downloaded. After that, you should have sucessfully installed SciPy.
 
 ## Usage
 
