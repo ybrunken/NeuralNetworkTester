@@ -51,14 +51,14 @@ This program is designed to help you with homework 2 by testing your networks an
    On Windows, the installation of scipy often causes problems. Instead of installing it directly via pip, follow these steps:  
    
    1. Go to https://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy and download the NumPy file that corresponds to your configuration. The two digits after "cp" in the name specify the Python version you have installed and "win32" or "amd_win64" correspond to a 32bit or a 64bit version of Python.
-   2. Open the command line an change to the directory where you have downloaded the file.
+   2. Open the command line and change to the directory where you have downloaded the file.
    3. Run  
       ```
       pip install numpy‑1.13.3+mkl‑cpxx‑cpxxm‑xx.whl
       ```
       where you have to use the name of the file you just downloaded. After that, you should have sucessfully installed NumPy.
    4. Go to https://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy and download the SciPy file that corresponds to your configuration.
-   5. Open the command line an change to the directory where you have downloaded the file.
+   5. Open the command line and change to the directory where you have downloaded the file.
    6. Run  
       ```
       pip install scipy‑1.0.0‑cpxx‑cpxxm‑xx.whl
