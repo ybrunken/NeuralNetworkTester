@@ -7,7 +7,7 @@ This program is designed to help you with homework 2 by testing your networks an
 1. Install Python 3 on your machine  
    
    * **Windows**: Download "Windows x86-64 executable installer" listed under the latest Python 3 version on this website: https://www.python.org/downloads/windows/ 
-   Follow the installation process and make sure that you include pip and that you add Python to the PATH variable during the installation. By default these choices are already set. You can also find a video explanation on how to install Python 3 on YouTube: https://youtu.be/dX2-V2BocqQ
+   Follow the installation process and make sure that you include pip and that you add Python to the PATH variable during the installation. You can also find a video explanation on how to install Python 3 on YouTube: https://youtu.be/dX2-V2BocqQ
    * **Ubuntu**: Probably Python 3 is already installed, if not use the following command:
    	 ```
      sudo apt-get install python3 
