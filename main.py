@@ -237,9 +237,10 @@ def run():
             train_x, train_y, train_result, test_x, test_y, test_result = classification(x_min, x_max, y_min, y_max, fct)
 
     if use_regression_:
-        # add noise
-        for i in range(len(train_result)):
-            train_result[i] = np.random.normal(train_result[i], eval(parser.expr(noise.get()).compile()))
+        if eval(parser.expr(noise.get()).compile()) != 0:
+            # add noise
+            for i in range(len(train_result)):
+                train_result[i] = np.random.normal(train_result[i], eval(parser.expr(noise.get()).compile()))
 
         with open("input.txt", "w") as inputFile:
             for i in range(len(train)):
