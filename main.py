@@ -416,8 +416,8 @@ def create_parameter_frame(parent):
     timelimit.grid(row=5, column=1, columnspan=2)
 
     noise.insert(0, "0")
-    num_points_training.insert(0, "1000")
-    num_points_test.insert(0, "100")
+    num_points_training.insert(0, "300")
+    num_points_test.insert(0, "50")
     timelimit.insert(0, "300")
 
     noise.configure(state="disabled")
