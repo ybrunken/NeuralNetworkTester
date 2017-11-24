@@ -1,17 +1,34 @@
 # NeuralNetworkTester
 
-This tool makes it easy to test the implemented neural network for the classification and regression tasks. Besides using an equation, you can also define your own underlying functions by drawing them.
+This program is designed to help you with homework 2 by testing your networks and visualizing the results. Besides using an equation, you can also define your own underlying function the network should learn by drawing it. After generating an input file this tool will test your compiled C program and compare its results to the ground truth data by plotting your predictions. You can use this script for regression (including the bonus problem) and classification tasks.
 
 ## Installation
 
-1. Install Python 3 on your machine
+1. Install Python 3 on your machine  
+   
+   * **Windows**: Download "Windows x86-64 executable installer" listed under the latest Python 3 version on this website: https://www.python.org/downloads/windows/ 
+   Follow the installation process and make sure that you include pip and that you add Python to the PATH variable during the installation. By default these choices are already set. You can also find a video explanation on how to install Python 3 on YouTube: https://youtu.be/dX2-V2BocqQ
+   * **Ubuntu**: Probably Python 3 is already installed, if not use the following command:
+   	 ```
+     sudo apt-get install python3 
+     ```  
+     The same holds for pip3. Usually it should already be installed, otherwise write:
+     ```
+     sudo apt-get install python3-pip
+     ```
+   * **Mac**: Download "Mac OS X 64-bit/32-bit installer" listed under the latest Python 3 version on this website: https://www.python.org/downloads/mac-osx/ 
+   Follow the installation process and make sure that you include pip during the installation. By default that choice is already set. You can also find a video explanation on how to install Python 3 on YouTube: https://youtu.be/uA8SA81nivg
 2. Download the file main.py and save it at a desired location
 3. Run the file main.py  
-   If you want to run it from the command line, switch to the directory where you put the file and type
+   If you're on Windows and want to run it from the command line, switch to the directory where you put the file and type
    ```
    python main.py
    ```
-4. Maybe you're missing some modules. The following modules are required:
+   On Linux or Mac, change to the right directory and write
+   ```
+   python3 main.py
+   ```
+4. Maybe you get an error because you're missing some modules. The following modules are required:
 
    * tkinter
    * numpy
@@ -21,7 +38,32 @@ This tool makes it easy to test the implemented neural network for the classific
    * threading
    * matplotlib
    
-   Install them for example with pip
+   Install them for example with pip. If you are on Windows, open the command line and type
+   ```
+   pip install moduleName
+   ```
+   if you use Linux or Mac, open the terminal and write
+   ```
+   pip3 install moduleName
+   ```
+   Replace *moduleName* with the name of the module you are missing.
+   
+   On Windows, the installation of scipy often causes problems. Instead of installing it directly via pip, follow these steps:  
+   
+   1. Go to https://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy and download the NumPy file that corresponds to your configuration. The two digits after "cp" in the name specify the Python version you have installed and "win32" or "amd_win64" correspond to a 32bit or a 64bit version of Python.
+   2. Open the command line and change to the directory where you have downloaded the file.
+   3. Run  
+      ```
+      pip install numpy‑1.13.3+mkl‑cpxx‑cpxxm‑xx.whl
+      ```
+      where you have to use the name of the file you just downloaded. After that, you should have sucessfully installed NumPy.
+   4. Go to https://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy and download the SciPy file that corresponds to your configuration.
+   5. Open the command line and change to the directory where you have downloaded the file.
+   6. Run  
+      ```
+      pip install scipy‑1.0.0‑cpxx‑cpxxm‑xx.whl
+      ```
+      where you have to use the name of the file you just downloaded. After that, you should have sucessfully installed SciPy.
 
 ## Usage
 
@@ -70,6 +112,6 @@ You specify everything that is related to this function in the upper right area 
 ### Run network
 
 After you have specified all the parameters, you can run the network. Click the button "Run network" at the very bottom of the main window.  
-Note that the window may seem to be frozen. This does **NOT** mean that something went wrong. Just wait for a response and don't kill the process.  
+Note that the window may seem to be frozen. This does **NOT** mean that something went wrong. Just wait for a response and don't kill the process. If everything was successful, you will see a visualization of your program output and the ground truth like in the pictures above.  
 If your program exceeds the time limit or throws and error, you will get notified.  
 The script also generates a file "input.txt" of the same format that is used on the homework server. This file will be placed in the same directory as the file "main.py"
