@@ -30,12 +30,8 @@ This program is designed to help you with homework 2 by testing your networks an
    ```
 4. Maybe you get an error because you're missing some modules. The following modules are required:
 
-   * tkinter
    * numpy
    * scipy
-   * parser
-   * subprocess
-   * threading
    * matplotlib
    
    Install them for example with pip. If you are on Windows, open the command line and type
