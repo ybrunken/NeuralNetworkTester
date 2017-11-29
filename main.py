@@ -5,9 +5,11 @@ import parser
 from scipy import interpolate
 import numpy as np
 import os
-import matplotlib.pyplot as plt
 import subprocess
 import threading
+import matplotlib
+matplotlib.use("TkAgg")
+from matplotlib import pyplot as plt
 from math import sin, asin, sinh, asinh, cos, acos, cosh, acosh, tan, atan, tanh, atanh, exp, log, log2, log10, e, pi
 
 
